@@ -12,7 +12,7 @@
 html,
 body {
   background-color: #fff;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'Lato', 'Arial', sans-serif;
   /*set default font weight*/
   font-weight: 300;
   font-size: 20px;
