@@ -34,6 +34,22 @@ body {
     visibility: hidden;
 }
 
+/*--------------------------------------------
+        NHELJEE IMAGE STYLE
+/*--------------------------------------------*/
+.nhel-img-container {
+    height: 600px;
+    width: 400px;
+}
+
+.nheljee-img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.15);
+}
+
+
 /*--------------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*--------------------------------------------*/
