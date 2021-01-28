@@ -162,7 +162,6 @@ input[type=submit] /*so that input button will have the same format*/
     padding: 10px 30px;/*10px top and bottom, 30px left and right*/
     font-weight: 300px;
     text-decoration: none;
-    border-radius: 200px;
     -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
     transition: background-color 0.2s, border 0.2s, color 0.2s; /*when we hover over a link, the bg color will not change instantaneously but over 0.2s*//*the background color should change with a transition*/
 }
@@ -171,18 +170,19 @@ input[type=submit] /*so that input button will have the same format*/
 .btn-full:visited,
 input[type=submit]
 {
-    background-color: #e67e22;/*got from flatuicolors.com*/
-    border: 1px solid #e67e22;
+    background-color: #4079a7c9;/*got from flatuicolors.com*/
+    border: 1px solid #4079a7c9;
     color: #fff;/*white*/
-    margin-right: 15px;
+    margin: 0 auto;
+    padding: 15px 30px;
 }
 
-.btn-ghost:link,
+/* .btn-ghost:link,
 .btn-ghost:visited{
     border: 1px solid #e67e22;
     color: #e67e22;
     
-}
+} */
 
 .btn:hover,
 .btn:active,
@@ -190,14 +190,14 @@ input[type=submit]:hover,
 input[type=submit]:active
 {
     /*when the mouse hovers over the 2 links, the background color changes intensity*/
-    background-color: #cf6d17;/*copied from 0to255.com*/
+    background-color: #376891c9;/*copied from 0to255.com*/
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]
 {
-    border: 1px solid #e67e22;
+    border: 1px solid #376891c9;
 }
 
 .btn-ghost:hover,
