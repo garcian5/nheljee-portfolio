@@ -14,7 +14,7 @@ $(document).ready(function(){//this ensures that this code can only run after th
 $(document).ready(function(){
     
     /* For the sticky navigation */
-    $('.js--section-features').waypoint(function(direction) {
+    $('.js--section-about').waypoint(function(direction) {
         if (direction == "down"){/*if the user scrolls down to this section, we want the sticky navigation to appear*/
             $('nav').addClass('sticky');/*add the class sticky*/
         } else{/*if it scrolls up, the sticky nav will disappear*/
@@ -26,12 +26,12 @@ $(document).ready(function(){
     
     
     /* Scroll on buttons */
-    $('.js--scroll-to-plans').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top},1000);/*we select the class for the I'm hungry button, and when we click on it, the browser will scroll to the top of the section plans(pricing plan) section in 1000 millisecond or 1 second*/
+    $('.js--scroll-to-about').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-about').offset().top},1000);/*we select the class for the I'm hungry button, and when we click on it, the browser will scroll to the top of the section plans(pricing plan) section in 1000 millisecond or 1 second*/
     });
     
-    $('.js--scroll-to-start').click(function(){
-        $('html, body').animate({scrollTop: $('.js--section-features').offset().top},1000);
+    $('.js--scroll-to-projects').click(function(){
+        $('html, body').animate({scrollTop: $('.js--section-projects').offset().top},1000);
     });
     
     

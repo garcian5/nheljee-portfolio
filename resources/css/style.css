@@ -196,12 +196,14 @@ input[type=submit]
     padding: 15px 30px;
 }
 
-/* .btn-ghost:link,
+.btn-ghost:link,
 .btn-ghost:visited{
-    border: 1px solid #e67e22;
-    color: #e67e22;
-    
-} */
+    border: 1px solid #4079a7c9;
+    color: #4079a7c9;
+    background-color: rgba(255, 255, 255, 0.171);
+    font-weight: 300;
+    padding: 15px 30px;
+}
 
 .btn:hover,
 .btn:active,
@@ -221,7 +223,7 @@ input[type=submit]
 
 .btn-ghost:hover,
 .btn-ghost:active{
-    border: 1px solid #e67e22;
+    border: 1px solid #4079a7c9;
     color: #fff;
     
 }
@@ -341,7 +343,7 @@ header{
 /*--------------------------------------------*/
 /*FEATURES*/
 /*--------------------------------------------*/
-.section-features .long-copy{
+.section-about .long-copy{
     margin-bottom: 30px;
 }
 
