@@ -1,4 +1,4 @@
-/*ORANGE COLOR: #e67e22*/
+/*PRIMARY COLOR: #4079a7c9*/
 
 /*--------------------------------------------*/
 /*BASIC SETUP*/
@@ -38,15 +38,18 @@ body {
         NHELJEE IMAGE STYLE
 /*--------------------------------------------*/
 .nhel-img-container {
-    height: 600px;
-    width: 400px;
+    width: 300px;
+    margin: 40px auto;
 }
 
 .nheljee-img {
     border-radius: 50%;
     max-width: 100%;
     max-height: 100%;
-    transform: scale(1.15);
+}
+
+.nhel-desc {
+    text-align: center;
 }
 
 
@@ -100,7 +103,7 @@ h2:after {/*will appear after the h2*/
     /*whenever we do an after pseudo class, we should define it's content*/
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #4079a7c9;
     content: " "; /*we don't want any words to appear*/
     width: 100px;
     margin: 0 auto;
@@ -292,7 +295,7 @@ header{
 
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #4079a7c9;
 }
 
 
@@ -318,6 +321,7 @@ header{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
+    padding-bottom: 20px;
     z-index: 9999;/*maximum allowed is 9999. it finds the vertical stacking of elements so now our sticky navigation will always be on top of all other elements bc it has the highest possible value here*/
 }
 

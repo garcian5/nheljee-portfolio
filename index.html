@@ -30,7 +30,7 @@
   <header>
     <nav>
       <div class="row">
-        <ul class="main-nav js--main-nav">
+        <ul class="main-nav js--main-nav"> <!--sticky from styles.css-->
           <li><a href="#features">Home</a></li>
           <li><a href="#works">About</a></li>
           <li><a href="#cities">Projects</a></li>
@@ -41,20 +41,20 @@
     </nav>
 
     <div class="hero-text-box">
-      <h1>Hola! Me llamo Nheljee Rose Garcia.<br>I love creating cool applications!</h1>
+      <h1>Hi! Me llamo Nheljee Rose Garcia.<br>I love creating cool applications!</h1>
       <a class="btn btn-full js--scroll-to-plans" href="#">Check Me Out</a>
     </div>
   </header>
 
   <section class="section-features js--section-features" id="features">
     <div class="row">
-      <h2>About Me</h2>
-      <p class="long-copy">
-        <div class="nhel-img-container">
-          <img class='nheljee-img' src="resources/img/myphoto.png" alt="Nheljee Garcia  photo">
-        </div>
-        Nheljee Garcia
-      </p>
+      <h2>About Me</h2> <!--line at the bottom is from h2:after-->
+      <div class="nhel-img-container">
+        <img class='nheljee-img' src="resources/img/myphoto.png" alt="Nheljee Garcia  photo">
+      </div>
+      <div class='row nhel-desc'>
+        <p>Description about me.</p>
+      </div>
     </div>
   </section>
 
