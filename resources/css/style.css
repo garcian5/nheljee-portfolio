@@ -674,9 +674,9 @@ footer{
 .social-links li a:visited{
     font-size: 150%;
 }
-.ion-social-facebook,
+.ion-social-github,
 .ion-social-twitter,
-.ion-social-googleplus,
+.ion-social-linkedin,
 .ion-social-instagram {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
@@ -684,16 +684,16 @@ footer{
 
 
 /* colors on website: https://www.designpieces.com/2012/12/social-media-colours-hex-and-rgb/*/
-.ion-social-facebook:hover{
-    color: #3b5998;
+.ion-social-github:hover{
+    color: #6cc644;
 }
 
 .ion-social-twitter:hover{
     color: #55acee;
 }
 
-.ion-social-googleplus:hover{
-    color: #dd4b39;
+.ion-social-linkedin:hover{
+    color: #0e76a8;
 }
 
 .ion-social-instagram-outline:hover{
