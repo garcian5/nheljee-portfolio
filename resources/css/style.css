@@ -16,7 +16,7 @@ body {
     background-color: #fff;
     color: #555; /*text color*/
     /*if Lato and arial are not available, then any sans-serif font will be used*/
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Nunito', 'Quicksand', 'Arial', sans-serif;
     /*set default font weight*/
     font-weight: 300;
     font-size: 20px;
