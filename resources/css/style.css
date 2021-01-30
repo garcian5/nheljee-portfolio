@@ -69,16 +69,23 @@ body {
     padding: 30px;
 }
 
+.skill-bar {
+    width: 100%;
+    border: 1px solid #8686862d;
+    background-color: #f8e5e549;
+    margin: 0;
+}
 .skill-title {margin-bottom: 30px;}
 .skill-graph li {
     list-style: none;
-    margin-bottom: 5px;
+    margin: 5px 2px;
     height: 35px;
     line-height: 35px;
     padding: 0px 20px;
     text-align: left;
     color: rgb(240, 236, 236);
     text-shadow: 1px 1px #000;
+    border: 1px solid #b9b9b9;
 }
 .skill-js { background-color: #0e76a8; width: 70%; }
 .skill-html { background-color: #FBBC05; width: 95%; }
