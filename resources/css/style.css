@@ -52,6 +52,23 @@ body {
     text-align: center;
 }
 
+.skill-graph {
+    background-color: rgb(241, 241, 241);
+    margin: 5px auto;
+    width: 90%;
+    /*flexbox with a column direction (elements in this will be displayed in columns in their own boxes)*/
+    display: flex;
+    flex-direction: column;
+    /*color of the border*/
+    border: 1px solid #efefef;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+    padding: 30px;
+}
+.skill-graph li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
 
 /*--------------------------------------------*/
 /*REUSABLE COMPONENTS*/
@@ -86,9 +103,10 @@ h1{
     margin-top: 0;/*to get rid of the margin that the h1 automatically sets and so that the bg img encompasses all of the web page's sides*/ 
     margin-bottom: 20px;
     color: #fff;/*white*/
-    font-size: 200%;/*this means that our heading element will be 40px w/c is exactly 200% of 20px*/ /*basic font size of our HTML document is 20px. in responsive web design, we want everything to be relative*/
+    font-size: 250%;/*this means that our heading element will be 40px w/c is exactly 200% of 20px*/ /*basic font size of our HTML document is 20px. in responsive web design, we want everything to be relative*/
     word-spacing: 4px;/*so some space between different words*/
     letter-spacing: 1px; /*so it's not so compressed*/
+    text-shadow: 2px 2px #000;
 }
 
 h2{
@@ -192,7 +210,7 @@ input[type=submit]
     background-color: #4079a7c9;/*got from flatuicolors.com*/
     border: 1px solid #4079a7c9;
     color: #fff;/*white*/
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 15px 30px;
 }
 
@@ -203,6 +221,7 @@ input[type=submit]
     background-color: rgba(255, 255, 255, 0.171);
     font-weight: 300;
     padding: 15px 30px;
+    text-shadow: 1px 1px #0a141d;
 }
 
 .btn:hover,
