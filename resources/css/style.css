@@ -48,13 +48,17 @@ body {
     max-height: 100%;
 }
 
-.nhel-desc {
+.center-txt {
     text-align: center;
 }
 
+/*--------------------------------------------
+        SKILLS GRAPH STYLE
+/*--------------------------------------------*/
+
 .skill-graph {
     background-color: rgb(241, 241, 241);
-    margin: 5px auto;
+    margin: 30px auto;
     width: 90%;
     /*flexbox with a column direction (elements in this will be displayed in columns in their own boxes)*/
     display: flex;
@@ -64,11 +68,39 @@ body {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
     padding: 30px;
 }
+
+.skill-title {margin-bottom: 30px;}
 .skill-graph li {
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 20px;
+    text-align: left;
+    color: rgb(240, 236, 236);
+    text-shadow: 1px 1px #000;
 }
+.skill-js { background-color: #0e76a8; width: 70%; }
+.skill-html { background-color: #FBBC05; width: 95%; }
+.skill-css { background-color: #34A853; width: 63%; }
+.skill-react { background-color: #EA4335; width: 55%; }
+.skill-node { background-color: #bd276d; width: 40%; }
 
+.skill-andstud { background-color: #0e76a8; width: 50%; }
+.skill-java { background-color: #FBBC05; width: 55%; }
+.skill-xml { background-color: #34A853; width: 10%; }
+
+.skill-mss-sql { background-color: #34A853; width: 65%; }
+.skill-mdb-nosql { background-color: #EA4335; width: 68%; }
+
+.skill-python { background-color: #34A853; width: 65%; }
+.skill-csharp { background-color: #EA4335; width: 75%; }
+.skill-c { background-color: #c6df6b; width: 35%; }
+
+.skill-unity { background-color: #34A853; width: 65%; }
+.skill-protowire { background-color: #EA4335; width: 90%; }
+.skill-git { background-color: #c6df6b; width: 73%; }
+.skill-agile { background-color: #df8c6b; width: 85%; }
 
 /*--------------------------------------------*/
 /*REUSABLE COMPONENTS*/
@@ -94,7 +126,8 @@ section{
 /*-------HEADINGS-------*/
 h1,
 h2,
-h3{
+h3,
+h4{
     font-weight: 300;/*decrease the font weight*/
     text-transform: uppercase; /*change to uppercase*/
 }
